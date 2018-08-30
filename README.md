@@ -1,8 +1,8 @@
 # Evaluation_Kits
-Code used in our Air Quality Sensor Evaluation Kit
+Code used in our Temperature & Pressure Sensor Evaluation Kit
 
-This incluse SM-PWM-01C dust sensor, T6713 CO2 sensor, T9602 Humidity & Temperature Sensor, and a 0.96" OLED screen
+This incluse NPA-201 barometric pressure sensor, ports for Thermisotrs, NPA pressure sensor range, MiCS-VZ89TE VOC sensor, and a 0.96" OLED screen
 
-Hardware is Arduino Uno compaitble with Amphenol Advanced Sensors Screen
+Hardware is Arduino Uno compaitble with Amphenol Advanced Sensors Schield
 
-Code checks for sensors (except dust sensor) and displays only those values. A Firmware 'switch' is available to change the output to a serial output for data logging.
+Code checks for sensors and displays only those values. A Firmware 'switch' is available to change the output to a serial output for data logging.
