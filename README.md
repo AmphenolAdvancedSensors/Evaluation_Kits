@@ -1,7 +1,7 @@
 # Evaluation_Kits
 Code used in our Air Quality Sensor Evaluation Kit
 
-This incluse SM-PWM-01C dust sensor, T6713 CO2 sensor, T9602 Humidity & Temperature Sensor, and with a 0.96" OLED screen
+This includes an SM-PWM-01C dust sensor, T6713 CO2 sensor, T9602 Humidity & Temperature Sensor, and with a 0.96" OLED screen
 
 Hardware is Arduino Uno compatable with Amphenol Advanced Sensors Screen
 
