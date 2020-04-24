@@ -21,8 +21,8 @@ Adafruit_SSD1306 display(128, 64, 11, 12, 9, 10, 11); //(SCREEN_WIDTH, SCREEN_HE
                     //5v Supply, 04L Pin 1 & 2
                     //Ground, 04L Pin 3 & 4
 #define sleepPin 4 //D4, Connector Pin 3, 04L Pin 10 Sleep
-#define Rx_Pin  5  //D5, Connector Pin 4, 04L Pin 9 Tx
-#define Tx_Pin  6  //D6, Connector Pin 5, 04L Pin 7 Rx
+#define Tx_Pin  5  //D5, Connector Pin 4, 04L Pin 7 Rx
+#define Rx_Pin  6  //D6, Connector Pin 5, 04L Pin 9 Tx
 SoftwareSerial mySerial(Rx_Pin, Tx_Pin); // RX, TX               // Declare serial
 
 // Initialize global variables
