@@ -6,3 +6,5 @@ This includes an SM-PWM-01C dust sensor, T6713 CO2 sensor, T9602 Humidity & Temp
 Hardware is Arduino Uno compatable with Amphenol Advanced Sensors Screen
 
 Code checks for sensors (except dust sensor) and displays only those values. A Firmware 'switch' is available to change the output to a serial output for data logging.
+
+NOTE: Any option with the SM-PWM-01C dust sensor requires the pinchangeint library to be installed. https://github.com/NicoHood/PinChangeInterrupt Or http://playground.arduino.cc/Main/PinChangeInt
